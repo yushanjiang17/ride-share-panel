@@ -258,8 +258,8 @@ function startTimer() {
 function showTimeUpScreen() {
   resetState();
   questionElement.innerHTML = `
-    ⏰ Time's up!<br>
-    You ran out of time.<br><br>
+    Time's up!<br>
+    
     <strong>Would you like to try again?</strong>
   `;
   nextButton.innerHTML = "Restart";
